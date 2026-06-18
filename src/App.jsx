@@ -5,7 +5,7 @@ function App() {
     <div className="container">
       <header className="hero">
         <h1>Dileep Kumar Boddu</h1>
-        <h3>Devops Engineer | AWS & DevOps Learner</h3>
+        <h3>Software Developer | AWS & DevOps Learner</h3>
         <p>
           Passionate about building web applications and learning cloud,
           DevOps, and modern software development technologies.
