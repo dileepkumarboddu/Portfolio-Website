@@ -1,3 +1,4 @@
+import Contact from "./components/Contact";
 import "./App.css";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
       <header className="hero">
         <h1>Dileep Kumar Boddu</h1>
         <h3>Software Developer | AWS & DevOps Learner</h3>
+
         <p>
           Passionate about building web applications and learning cloud,
           DevOps, and modern software development technologies.
@@ -21,11 +23,15 @@ function App() {
           </a>
 
           <a
-            href="https://www.linkedin.com"
+            href="https://www.linkedin.com/in/dileep-kumar-boddu"
             target="_blank"
             rel="noreferrer"
           >
             LinkedIn
+          </a>
+
+          <a href="/resume.pdf" download>
+            📄 Download Resume
           </a>
         </div>
       </header>
@@ -43,6 +49,7 @@ function App() {
 
       <section>
         <h2>Education</h2>
+
         <div className="card">
           <h3>B.Tech - Information Technology</h3>
           <p>Sasi Institute of Technology & Engineering</p>
@@ -136,12 +143,15 @@ function App() {
       </section>
 
       <section>
-        <h2>Contact</h2>
+        <h2>Contact Information</h2>
 
         <p>📧 boddudileepkumar151@gmail.com</p>
         <p>📱 +91 7731839919</p>
         <p>📍 Tadepalligudem, Andhra Pradesh</p>
       </section>
+
+      {/* EmailJS Contact Form */}
+      <Contact />
     </div>
   );
 }
